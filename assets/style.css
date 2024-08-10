@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: #fff;
+    min-height: 100vh;
+    padding-top: 6.5rem;
+  }
+
+.heading-greeting{
+    font-size: 36px;
+    color: #777777;
+    font-weight:500;
+    margin-bottom: 0.5rem;
+}
+
+.heading-name{
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 5rem;
+    color: #800000;
+}
+
+.heading-skill{
+    font-size: 24px;
+    color: #878787;
+    margin-top: 1.5rem;
+}
+
+.heading-text{
+    font-size: 18px;
+    max-width: 100%;
+    margin: 2rem 0;
+}
+
+.general-text{
+    font-size: 18px;
+    margin: 2rem 0;
+    width: 85%;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: #800000;
+}
+
+.active{
+    font-weight: 700;
+    color: #800000;
+}
+
+.btn-maroon{
+    font-size: 18px; 
+    font-weight: 700; 
+    color: white; 
+    background-color: #800000;
+}
+
+.btn-maroon:hover{
+    color: #800000; 
+    background-color: white;
+}
+
+@media (max-width: 425px) { 
+    body{
+        margin: 0;
+    }
+    .heading-greeting{
+        margin-top: 200px;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+
+    .heading-name{
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .heading-skill{
+        font-size: 18px;
+        margin: 0.5rem 0;
+    }
+
+    .heading-text{
+        font-size: 16px;
+    }
+
+    .general-text{
+        font-size: 16px;
+    }
+}
+
+.zoom-out {
+    transition: transform 0.15s linear, background-color 0.1s linear, box-shadow 0.1s ease-in-out;
+}
+
+.zoom-out:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 20px rgba(158, 158, 158, 0.15), 0 6px 6px rgba(238, 238, 238, 0.1);
+}
